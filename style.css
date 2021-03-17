@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.container {
+  margin: 0 15%;
+}
+#home {
+  text-align: center;
+  width: 100%;
+  margin-top: 20%;
+}
+h3 {
+  margin: 1rem;
+}
+#get-meal {
+  font-size: 18px;
+  background-color: #33c3f0;
+  border: none;
+  width: 8rem;
+  height: 3rem;
+  outline: none;
+  border-radius: 5px;
+}
+#get-meal:hover {
+  background-color: #2ba6cc;
+  cursor: pointer;
+}
+#generate-meal {
+  margin-top: 5rem;
+  display: flex;
+}
+#image {
+  max-width: 30%;
+  max-height: auto;
+}
+#title {
+  margin: 1rem 1rem;
+}
+#script {
+  margin: 1rem 1rem;
+}
+#ingredients,
+#video {
+  display: none;
+  margin: 1rem 1rem;
+}
+p {
+  margin: 1rem 1rem;
+}
+li {
+  margin: 0.5rem 1rem;
+}
+#player {
+  display: none;
+}
+@media only screen and (max-width: 500px) {
+  .container {
+    margin: 0;
+  }
+  #generate-meal {
+    flex-direction: column;
+  }
+  #image {
+    max-width: 80%;
+    max-height: auto;
+    margin: 1rem 10%;
+  }
+  ul {
+    padding-left: 1rem;
+  }
+}

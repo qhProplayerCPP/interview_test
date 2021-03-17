@@ -1,0 +1,37 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Meal Generator</title>
+    <script src='./script.js' defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="home">
+            <h1>Feeling hungry?</h1>
+            <h3>Get a random meal by clicking below</h3>
+            <button id="get-meal">Get Meal 🍔</button>
+        </div>
+        <div id="generate-meal">
+            <img id="image" />
+            <div id="meal-info">
+                <h1 id="title"></h1>
+                <p id="script"></p>
+            </div>
+        </div>
+        <p id="category"></p>
+        <p id="area"></p>
+        <p id="tags"></p>
+        <h2 id="ingredients">Ingredients:</h2>
+        <ul id="node-of-ingre"> </ul>
+        <h2 id="video">Video recipe:</h2>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/y881t8ilMyc" frameborder="0"
+            allowfullscreen id="player"></iframe>
+        </iframe>
+</body>
+
+</html>
